@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of html</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            
+            width: 50%;
+        }
+        td,th{
+            border: 1px solid;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even){
+            background-color: #ddd;
+        }
+        td{
+            font-style: italic;
+        }
+        section{
+            text-align: center;
+            background-color: aqua;
+        
+        }
+        .wrap{
+            margin-left: 30%;
+            margin-right: 30%;
+            
+        }
+        .page{
+            background-color: beige;
+            text-align: center;
+            border: 1px solid;
+            
+        }
+        .head{
+            text-align: center;
+            background-color: blue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hi</h1>
+    <h2 style="background-color: beige; color: rgb(7, 163, 224);">This is Nizam</h2>
+    <h3>Welcom to basics of html page</h3>
+    <h4>This page is about<br>Basics</h4>
+    <h5>Let's Start</h5>
+    <h6>This is heading no.6</h6><hr>
+    <pre style="color:red;background-color: aqua;" >Hi  Hello</pre><hr>
+    <pre>
+        <p>Hi Hello</p>
+    </pre>
+    <hr>
+    <a href="https://www.google.com">Google(This opens on same page)</a><br>
+    <a href="https://www.google.com" target="_blank">Google(This opens on another page)</a><hr>
+    <a href="https://www.google.com"><img src="https://imgs.search.brave.com/iBy617GgI5OdkIW9DPkQG4M2E2uN32VGUuFrakrJJNs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly81My5m/czEuaHVic3BvdHVz/ZXJjb250ZW50LW5h/MS5uZXQvaHViLzUz/L2h1YmZzL2ltYWdl/OC0yLmpwZz93aWR0/aD02MDAmbmFtZT1p/bWFnZTgtMi5qcGc" alt="Google" 
+        height="100"></a><hr>
+        <figure>
+    <img src="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" alt="virat kohli" height="200">
+    <figcaption>Virat Kohli</figcaption>
+</figure><hr>
+    <h3>H<sub>2</sub>O</h3>
+    <h3>2<sup>2</sup>=4</h3><hr>
+    <table>
+        <thead>
+        <tr>
+            <th colspan="3"; style="text-align: center; font-size: x-large;">HTML Table</th>
+        </tr>
+            <tr>
+                <th>NAME</th>
+                <th>USN</th>
+                <th>Section</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Nizamuddin</td>
+            <td>096</td>
+            <td>3C</td>
+        </tr>
+        <tr>
+            <td>Mohan</td>
+            <td>079</td>
+            <td>3C</td>
+        </tr>
+        <tr>
+            <td>Naveen kumar</td>
+            <td>091</td>
+            <td>3c</td>
+        </tr>
+        <tr>
+            <td>Manu</td>
+            <td>075</td>
+            <td>3c</td>
+        </tr>
+        <tr>
+            <td>Namith</td>
+            <td>099</td>
+            <td>3C</td>
+        </tr>
+    </tbody>
+    </table><hr>
+    <button><a href="https://www.google.com" target="_parent">Google</a></button><hr>
+    <ul>
+        <li>Apple</li>
+        <ul>
+            <li>Green</li>
+            <li>Red</li>
+        </ul>
+    </ul>
+    <ol>
+        <li>Banana</li>
+        <ol>
+            <li>Yellow</li>
+            <li>Green</li>
+        </ol>
+    </ol><hr>
+    <form action="/action.js"></form>
+       <h4>Form</h4>
+        <input type="text" placeholder="Enter your username">
+        <input type="password" placeholder="Enter your password"><br><br>
+
+        Date of birth : <input type="date" name="dob" id="date"> <br>
+
+        <p>select your fav subjects</p>
+
+         <input type="checkbox" value="Java" name="choose">Java
+         <input type="checkbox" value="C#" name="choose">C#
+         <input type="checkbox" value="C++" name="choose">C++
+
+          <p>choose your class</p>
+         <input type="radio" value="1st year" name="class">1st year
+         <input type="radio" value="2nd year" name="class">2nd year
+
+         <br><br><label for="101">
+            <input type="radio" value="1st year" name="year" id="101">1st year
+         </label>
+         <label for="102">
+            <input type="radio" value="2nd year" name="year" id="102">2nd year
+         </label>
+        <br><br>choose your city : 
+        <select name="city">
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Delhi">Delhi</option>
+        </select>
+      
+         <br><br>This can be done without form for frontend
+         <p>This has to be done with form for backend</p><hr>
+    </form>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/nGeHstBtoH0?si=0JqGdmCtPrzcxAib" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br><video width="560" height="315"  src="/amaran.mov" controls>Amaran movie</video>
+    <section>
+    <p>click here to know about my </p>
+    <a href="/html/ed.html" target="_blank">Education</a>|
+    <a href="/html/pj.html">Project</a>|
+    <a href="/html/ex.html">Experience</a>
+</section>
+<div class="wrap">
+    <div class="page">
+        <div class="head">
+            <h1>Sign Up</h1>
+        </div>
+        <div class="contain">
+            <div class="name">
+                <label  for="fname">First Name :</label>
+                <div class="fname">
+                <input type="text" required>
+                </div>
+                Last Name :   
+                <div class="lname">
+                <input type="text">
+                </div>
+            </div>
+            <label for="gmail">Email Address :</label> 
+            <div class="mail">
+                <input type="text">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
